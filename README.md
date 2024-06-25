@@ -1,6 +1,9 @@
 Python script is provided in the "Code" folder.
+
 Training studies are provided in the "training_studies" folder.
+
 Test stufies are provided in the "test_studies" folder.
+
 
 Jupyter Notebook is required to execute the script, the script can be execute using following plateforms:
 1) Kaggle
@@ -8,6 +11,7 @@ Jupyter Notebook is required to execute the script, the script can be execute us
 3) Local Machine
 
 Libraries Required for Local Machines: tiktoken, PyMuPDF, openai, anthropic + (pandas, re, time, os, numpy, requests, math, base64) 
+
 Libraries Required for Kaggle: tiktoken, PyMuPDF, openai, anthropic
 
 
@@ -25,7 +29,7 @@ iv  - variable_file = Path to the variable file (This file contains all the vari
 
 v   - prompt_size   = Enter the number of variables for each prompt (integer number (1, 3, 5, 10, etc.))
 
-v (i) - Each prompt will contain N number of variables -- if we select N=5, and # of variable = 10, we will have 2 prompts (each with 5 variables)
+v(i) - Each prompt will contain N number of variables -- if we select N=5, and # of variable = 10, we will have 2 prompts (each with 5 variables)
    
 OUTPUT:
 
@@ -39,7 +43,7 @@ Disagreement-Resolution:
 ------------------------
 We used two LLMs for extraction, according to initial results, we found that the extraction results are highly accurate when both LLMs generate agreement.
 In some cases, the responses of both LLMs were different, so we presented a solution based on cross-critique where each LLM take the output responses of other LLM and verify its result.
-	In most of the cases, both LLMs generate agreed response (at the second level, after cross-critque)
+In most of the cases, both LLMs generate agreed response (at the second level, after cross-critque)
 
 To execute the cross-critque code (provided at the end of the Notebook shared in the "Code" folder), you will require following information in the file:
 
