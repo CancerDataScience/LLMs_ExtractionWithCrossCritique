@@ -25,7 +25,7 @@ iv  - variable_file = Path to the variable file (This file contains all the vari
 
 v   - prompt_size   = Enter the number of variables for each prompt (integer number (1, 3, 5, 10, etc.))
 
-			Each prompt will contain N number of variables -- if we select N=5, and # of variable = 10, we will have 2 prompts (each with 5 variables)
+v (i) - Each prompt will contain N number of variables -- if we select N=5, and # of variable = 10, we will have 2 prompts (each with 5 variables)
    
 OUTPUT:
 
