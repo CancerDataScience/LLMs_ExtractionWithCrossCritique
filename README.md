@@ -35,18 +35,18 @@ i  - The first file will contain the raw responses for all the provided files fo
 ii - The second file will contain the post-processed (using GPT model) responses for all the raw responses
 
 
-Disagreement-Resolution:
-------------------------
+* Disagreement-Resolution
+
 We used two LLMs for extraction, according to initial results, we found that the extraction results are highly accurate when both LLMs generate agreement.
 In some cases, the responses of both LLMs were different, so we presented a solution based on cross-critique where each LLM take the output responses of other LLM and verify its result.
 In most of the cases, both LLMs generate agreed response (at the second level, after cross-critque)
 
 To execute the cross-critque code (provided at the end of the Notebook shared in the "Code" folder), you will require following information in the file:
 
-File:
+ - File:
 Annotated Agreement Matching File
 
-Information in the File:
+ - Information in the File:
 Variable -- GPT_Responses -- CLAUDE_Responses -- Gold_Standard -- Agree(A)/Disagree(D)
 
 The disagreement-resolution code will be executed twice:
