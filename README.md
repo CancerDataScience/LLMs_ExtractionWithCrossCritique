@@ -14,7 +14,6 @@ Libraries Required for Kaggle: tiktoken, PyMuPDF, openai, anthropic
 You don't required to change the code to reproduce the results, the code required the following inputs from user:
 
 INPUT:
------
 i   - Model-Name    = claude-3-opus-20240229 / gpt-4-0125-preview --- For initial testing, it is recommended to use gpt-3.5-turbo (to save the cost)
 ii  - Model-Key     = APIKey for Cluade or GPT (purchased APIKey)
 iii - pdf_folder    = path to the folder that contains pdf files (in this case, for training, we provide the path to "training_studies" folder)
@@ -23,12 +22,10 @@ v   - prompt_size   = Enter the number of variables for each prompt (integer num
 			Each prompt will contain N number of variables -- if we select N=5, and # of variable = 10, we will have 2 prompts (each with 5 variables)
    
 OUTPUT:
--------
 The code will produce 2 files of responses
 1) The first file will contain the raw responses for all the provided files for all variables
 2) The second file will contain the post-processed (using GPT model) responses for all the raw responses
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Disagreement-Resolution:
 ------------------------
@@ -39,11 +36,9 @@ In some cases, the responses of both LLMs were different, so we presented a solu
 To execute the cross-critque code (provided at the end of the Notebook shared in the "Code" folder), you will require following information in the file:
 
 File:
------
 Annotated Agreement Matching File
 
 Information in the File:
-------------------------
 Variable -- GPT_Responses -- CLAUDE_Responses -- Gold_Standard -- Agree(A)/Disagree(D)
 
 The disagreement-resolution code will be executed twice:
@@ -52,6 +47,8 @@ i) It will take the claude response and verify using GPT, ii) Vice-Versa
 To execute these setting you only need to change the model name -- the script will automatically do the rest.
 
 
+Contact US:
+-----------
 In case of any questions, please do let us know at:
 riaz.irbaz@mayo.edu
 ayub.umair@mayo.edu
