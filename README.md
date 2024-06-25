@@ -1,8 +1,6 @@
 * Python script is provided in the "Code" folder.
-
--- Training studies are provided in the "training_studies" folder.
-
-# Test studies are provided in the "test_studies" folder.
+* Training studies are provided in the "training_studies" folder.
+* Test studies are provided in the "test_studies" folder.
 
 
 Jupyter Notebook is required to execute the script, the script can be execute using following plateforms:
