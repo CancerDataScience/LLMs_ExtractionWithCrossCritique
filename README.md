@@ -14,6 +14,7 @@ Libraries Required for Kaggle: tiktoken, PyMuPDF, openai, anthropic
 You don't required to change the code to reproduce the results, the code required the following inputs from user:
 
 INPUT:
+
 i   - Model-Name    = claude-3-opus-20240229 / gpt-4-0125-preview --- For initial testing, it is recommended to use gpt-3.5-turbo (to save the cost)
 
 ii  - Model-Key     = APIKey for Cluade or GPT (purchased APIKey)
@@ -27,7 +28,9 @@ v   - prompt_size   = Enter the number of variables for each prompt (integer num
 			Each prompt will contain N number of variables -- if we select N=5, and # of variable = 10, we will have 2 prompts (each with 5 variables)
    
 OUTPUT:
+
 The code will produce 2 files of responses
+
 1) The first file will contain the raw responses for all the provided files for all variables
 3) The second file will contain the post-processed (using GPT model) responses for all the raw responses
 
