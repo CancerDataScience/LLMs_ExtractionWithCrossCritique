@@ -16,7 +16,8 @@ Libraries Required for Kaggle: tiktoken, PyMuPDF, openai, anthropic
 You don't required to change the code to reproduce the results, the code required the following inputs from user:
 
 * INPUT
-i   - Model-Name    = claude-3-opus-20240229 / gpt-4-0125-preview --- For initial testing, it is recommended to use gpt-3.5-turbo (to save the cost)
+  
+** i   - Model-Name    = claude-3-opus-20240229 / gpt-4-0125-preview --- For initial testing, it is recommended to use gpt-3.5-turbo (to save the cost)
 
 ii  - Model-Key     = APIKey for Cluade or GPT (purchased APIKey)
 
