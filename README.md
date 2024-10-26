@@ -5,12 +5,12 @@
 
 * Requiements
   * Jupyter Notebook' is required to execute the script, the script can be executed using following plateforms:
-   - Kaggle
-   - Colab
-   - Local Machine
+    - Kaggle
+    - Colab
+    - Local Machine
 
-  Libraries Required for Local Machines: tiktoken, PyMuPDF, openai, anthropic + (pandas, re, time, os, numpy, requests, math, base64) 
-  Libraries Required for Kaggle: tiktoken, PyMuPDF, openai, anthropic
+ * Libraries Required for Local Machines: tiktoken, PyMuPDF, openai, anthropic + (pandas, re, time, os, numpy, requests, math, base64) 
+ * Libraries Required for Kaggle: tiktoken, PyMuPDF, openai, anthropic
 
 * INPUT
    - Model-Name    = claude-3-opus-20240229 / gpt-4-0125-preview / gpt-4o --- For initial testing, it is recommended to use gpt-3.5-turbo (to save the cost)
