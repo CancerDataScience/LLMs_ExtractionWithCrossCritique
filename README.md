@@ -41,7 +41,7 @@
    i) It will take the claude response and verify using GPT, ii) Vice-Versa
 
 * Note
-   To execute these setting you only need to change the model name -- the script will automatically do the rest.
+   - To execute these setting you only need to change the model name -- the script will automatically do the rest.
 
 
 Contact US:
