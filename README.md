@@ -1,16 +1,18 @@
-1) Python script is provided in the "Code" folder.
-2) Training studies are provided in the "training_studies" folder.
-3) Test studies are provided in the "test_studies" folder.
+* Directory Hierarchy
+   1) Python script is provided in the "Code" folder.
+   2) Training studies are provided in the "training_studies" folder.
+   3) Test studies are provided in the "test_studies" folder.
 
 
-Jupyter Notebook is required to execute the script, the script can be executed using following plateforms:
-1) Kaggle
-2) Colab
-3) Local Machine
+* Requiements
+  Jupyter Notebook' is required to execute the script, the script can be executed using following plateforms:
+  1) Kaggle
+  2) Colab
+  3) Local Machine
 
-Libraries Required for Local Machines: tiktoken, PyMuPDF, openai, anthropic + (pandas, re, time, os, numpy, requests, math, base64) 
+  Libraries Required for Local Machines: tiktoken, PyMuPDF, openai, anthropic + (pandas, re, time, os, numpy, requests, math, base64) 
 
-Libraries Required for Kaggle: tiktoken, PyMuPDF, openai, anthropic
+  Libraries Required for Kaggle: tiktoken, PyMuPDF, openai, anthropic
 
 
 You don't required to change the code to reproduce the results, the code required the following inputs from user:
