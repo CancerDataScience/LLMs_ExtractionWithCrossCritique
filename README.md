@@ -27,9 +27,9 @@
 
 * Disagreement-Resolution
 
-   We used two LLMs for extraction, according to initial results, we found that the extraction results are highly accurate when both LLMs generate agreement.
-   In some cases, the responses of both LLMs were different, so we presented a solution based on cross-critique where each LLM take the output responses of other LLM and verify its result.
-   In most of the cases, both LLMs generate agreed response (at the second level, after cross-critque)
+   We used two LLMs for data extraction, according to initial results, we found that the extraction results were highly accurate when both LLMs have agreement on responses (concordant responses).
+   In some cases, the responses of both LLMs were different, so we presented a solution employing a cross-critique technique where each LLM take the output responses of other LLM and verify its result.
+   In most of the cases, cross-critiuqe resulted in generating concordant response.
 
    To execute the cross-critque code (provided at the end of the Notebook shared in the "Code" folder), you will require following information in the file:
     - File:
