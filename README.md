@@ -16,7 +16,7 @@
    - Model-Name    = claude-3-opus-20240229 / gpt-4-0125-preview / gpt-4o --- For initial testing, it is recommended to use gpt-3.5-turbo (to save the cost)
    - Model-Key     = APIKey for Cluade or GPT (purchased APIKey)
    - pdf_folder    = path to the folder that contains pdf files (in this case, for training, we provide the path to "training_studies" folder)
-   - variable_file = Path to the variable file (This file contains all the variables that need to be extracted)
+   - variable_file = Path to the variable file (this file contains all the variables that need to be extracted)
    - prompt_size   = Enter the number of variables for each prompt (integer number: 1, 3, 5, 10, etc.)
       - Example: If we select N=5, and # of variable=10, we will have 2 prompts (each with 5 variables) [This is a hybrid (composed/decomposed) prompting technique]
    
