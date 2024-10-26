@@ -4,7 +4,7 @@
   - Test studies are provided in the "test_studies" folder.
 
 * Requiements
-  Jupyter Notebook' is required to execute the script, the script can be executed using following plateforms:
+  * Jupyter Notebook' is required to execute the script, the script can be executed using following plateforms:
    - Kaggle
    - Colab
    - Local Machine
