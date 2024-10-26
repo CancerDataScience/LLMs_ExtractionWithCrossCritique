@@ -5,15 +5,15 @@
 
 * Requiements
   Jupyter Notebook' is required to execute the script, the script can be executed using following plateforms:
-  1) Kaggle
-  2) Colab
-  3) Local Machine
+   - Kaggle
+   - Colab
+   - Local Machine
 
   Libraries Required for Local Machines: tiktoken, PyMuPDF, openai, anthropic + (pandas, re, time, os, numpy, requests, math, base64) 
   Libraries Required for Kaggle: tiktoken, PyMuPDF, openai, anthropic
 
 * INPUT
-   - Model-Name    = claude-3-opus-20240229 / gpt-4-0125-preview --- For initial testing, it is recommended to use gpt-3.5-turbo (to save the cost)
+   - Model-Name    = claude-3-opus-20240229 / gpt-4-0125-preview / gpt-4o --- For initial testing, it is recommended to use gpt-3.5-turbo (to save the cost)
    - Model-Key     = APIKey for Cluade or GPT (purchased APIKey)
    - pdf_folder    = path to the folder that contains pdf files (in this case, for training, we provide the path to "training_studies" folder)
    - variable_file = Path to the variable file (This file contains all the variables that need to be extracted)
