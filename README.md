@@ -17,12 +17,13 @@
    - Model-Key     = APIKey for Cluade or GPT (purchased APIKey)
    - pdf_folder    = path to the folder that contains pdf files (in this case, for training, we provide the path to "training_studies" folder)
    - variable_file = Path to the variable file (This file contains all the variables that need to be extracted)
-   - prompt_size   = Enter the number of variables for each prompt (integer number (1, 3, 5, 10, etc.)) Each prompt will contain N number of variables -- if we select N=5, and # of variable = 10, we will have 2 prompts (each with 5 variables)
+   - prompt_size   = Enter the number of variables for each prompt (integer number: 1, 3, 5, 10, etc.)
+    - Example: If we select N=5, and # of variable=10, we will have 2 prompts (each with 5 variables) [This is a hybrid (composed/decomposed) prompting technique]
    
 * OUTPUT
    The code will produce 2 files of responses
-   - The first file will contain the raw responses for all the provided files for all variables
-   - The second file will contain the post-processed (using GPT model) responses for all the raw responses
+   - The first file will contain the raw responses for all the provided files and for all the variables.
+   - The second file will contain the post-processed (using GPT model) responses/output.
 
 * Disagreement-Resolution
 
