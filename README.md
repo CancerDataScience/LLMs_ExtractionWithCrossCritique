@@ -13,16 +13,16 @@
   Libraries Required for Kaggle: tiktoken, PyMuPDF, openai, anthropic
 
 * INPUT
-   i   - Model-Name    = claude-3-opus-20240229 / gpt-4-0125-preview --- For initial testing, it is recommended to use gpt-3.5-turbo (to save the cost)
-   ii  - Model-Key     = APIKey for Cluade or GPT (purchased APIKey)
-   iii - pdf_folder    = path to the folder that contains pdf files (in this case, for training, we provide the path to "training_studies" folder)
-   iv  - variable_file = Path to the variable file (This file contains all the variables that need to be extracted)
-   v   - prompt_size   = Enter the number of variables for each prompt (integer number (1, 3, 5, 10, etc.)) Each prompt will contain N number of variables -- if we select N=5, and # of variable = 10, we will have 2 prompts (each with 5 variables)
+   1)   - Model-Name    = claude-3-opus-20240229 / gpt-4-0125-preview --- For initial testing, it is recommended to use gpt-3.5-turbo (to save the cost)
+   2)  - Model-Key     = APIKey for Cluade or GPT (purchased APIKey)
+   3) - pdf_folder    = path to the folder that contains pdf files (in this case, for training, we provide the path to "training_studies" folder)
+   4)  - variable_file = Path to the variable file (This file contains all the variables that need to be extracted)
+   5)   - prompt_size   = Enter the number of variables for each prompt (integer number (1, 3, 5, 10, etc.)) Each prompt will contain N number of variables -- if we select N=5, and # of variable = 10, we will have 2 prompts (each with 5 variables)
    
 * OUTPUT
    The code will produce 2 files of responses
-   i  - The first file will contain the raw responses for all the provided files for all variables
-   ii - The second file will contain the post-processed (using GPT model) responses for all the raw responses
+   1) The first file will contain the raw responses for all the provided files for all variables
+   2) The second file will contain the post-processed (using GPT model) responses for all the raw responses
 
 * Disagreement-Resolution
 
