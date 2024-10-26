@@ -1,7 +1,7 @@
 * Directory Hierarchy
-   1) Python script is provided in the "Code" folder.
-   2) Training studies are provided in the "training_studies" folder.
-   3) Test studies are provided in the "test_studies" folder.
+  - Python script is provided in the "Code" folder.
+  - Training studies are provided in the "training_studies" folder.
+  - Test studies are provided in the "test_studies" folder.
 
 * Requiements
   Jupyter Notebook' is required to execute the script, the script can be executed using following plateforms:
@@ -21,8 +21,8 @@
    
 * OUTPUT
    The code will produce 2 files of responses
-   1) The first file will contain the raw responses for all the provided files for all variables
-   2) The second file will contain the post-processed (using GPT model) responses for all the raw responses
+   - The first file will contain the raw responses for all the provided files for all variables
+   - The second file will contain the post-processed (using GPT model) responses for all the raw responses
 
 * Disagreement-Resolution
 
